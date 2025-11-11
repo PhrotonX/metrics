@@ -19,3 +19,4 @@ jobs:
           plugin_languages_details: bytes-size, percentage, lines
           plugin_languages_indepth: yes
           plugin_languages_ignored: html, css, scss, blade
+          plugin_languages_analysis_timeout: 300
