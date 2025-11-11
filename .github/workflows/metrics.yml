@@ -16,7 +16,7 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_limit: 20
-          plugin_languages_details: bytes-size, percentage, lines
+          # plugin_languages_details: bytes-size, percentage, lines
+          plugin_languages_details: percentage
           plugin_languages_indepth: yes
-          plugin_languages_ignored: html, css, scss, blade
-          plugin_languages_analysis_timeout: 300
+          plugin_languages_ignored: html, css, scss, blade, b4x
