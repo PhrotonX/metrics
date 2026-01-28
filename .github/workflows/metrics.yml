@@ -32,7 +32,10 @@ jobs:
           user: PhrotonX
           template: classic
           base: header, activity, community, repositories, metadata
+          config_display: large
           config_timezone: Asia/Shanghai
+          repositories: 50
+          debug: true
           plugin_activity: yes
           plugin_activity_days: 14
           plugin_activity_filter: all
